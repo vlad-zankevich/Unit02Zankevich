@@ -2,26 +2,18 @@ package by.epam.unit02.main;
 
 public class Task02 {
     public static void main(String[] args){
-        double x;
-        double y;
+
+        double x = 2;
+        double y = 12;
         double max;
-        double min;
 
-        x = 3;
-        y = 6;
-
-        if (x > y) {
+        if (y > x) {
             max = x;
-            min = y;
+            x = y;
+            y = max;
             System.out.println("x = " + x);
             System.out.println("y = " + y);
-        }else {
-            min = x;
-            max = y;
-
-            x = max;
-            y = min;
-
+        } else {
             System.out.println("x = " + x);
             System.out.println("y = " + y);
 
