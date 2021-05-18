@@ -1,5 +1,6 @@
 package by.epam.unit02.main;
 
+// внимательно изучи, какие именно файлы нужно коммитить, е коммить лишнего, а то тогда репозиторий выглядит немного неопрятно
 public class Task01 {
     public static void main(String[] args){
         float a;
