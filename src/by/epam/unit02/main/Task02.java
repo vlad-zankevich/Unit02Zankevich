@@ -11,7 +11,7 @@ public class Task02 {
             max = x;
             x = y;
             y = max;
-            System.out.println("x = " + x);
+            System.out.println("x = " + x);// нет смыслка дважды повторять этот вывод
             System.out.println("y = " + y);
         } else {
             System.out.println("x = " + x);
